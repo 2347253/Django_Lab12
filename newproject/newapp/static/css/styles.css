@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.team-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-right {
+    display: flex;
+}
+
+.nav-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.modal img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.player-info {
+    display: flex;
+    flex-direction: column;     
+    align-items: center;
+    margin-top: 30px;
+}
+
+.player-info img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+.player-info p {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}

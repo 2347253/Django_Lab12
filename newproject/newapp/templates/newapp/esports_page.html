@@ -1,0 +1,43 @@
+<!-- esports/templates/esports/base.html -->
+
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Esports Management</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar-left">
+            <span class="team-name">Esports Management</span>
+        </div>
+        <div class="navbar-right">
+            <button class="nav-button">Home</button>
+            <button class="nav-button">Shop</button>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="modal">
+            <img src="{% static 'img/modal_image.jpg' %}" alt="Esports Team">
+        </div>
+        <div class="player-info">
+            <img src="{% static 'img/player1.jpg' %}" alt="Player">
+            <p>WarriorHead Gaming</p>
+            <p>Age : 24</p>
+        </div>
+
+        <div class="player-info">
+            <img src="{% static 'img/player2.jpg' %}" alt="Player">
+            <p>SentinelPlayer Gaming</p>
+            <p>Age : 22x</p>
+
+        </div>
+    </div>
+</body>
+</html>
+
